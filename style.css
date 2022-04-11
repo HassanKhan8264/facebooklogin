@@ -28,6 +28,17 @@ img{
     font-weight:500;
     margin-top: 20px;
 }
+.log a{
+    color: black;
+    text-decoration: none;
+
+}
+.log a:hover{
+    color: royalblue;
+
+
+}
+
 .input2{
     display: flex;
     width:450px;
@@ -109,6 +120,204 @@ small{
 }
 .lan ul{
     margin: 0 auto;
+}
+/* home page css */
+body{
+    margin: 0;
+    padding: 0;
+    border:1
+}
+.container-fluid{
+    border: 1px solid black;
+}
+.row{
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.col-3{
+    border: 1px solid;
+    margin-left: 20px;
+}
+.col-3 img{
+    width:50px;
+    height:50px;
+    margin: 5px;
+}
+.col-3 a{
+    text-decoration: none;
+}
+.col-3 input{
+    border-radius: 50px;
+    height: 35px;
+    width: 250px;
+    border: 1px solid lightgray;
+    text-align: center;
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: rgb(230, 230, 230);
+}
+.col-5{
+    border: 1px solid;
+}
+.col-5 svg{
+    margin-top:  20px;
+    border-bottom: 1px solid royalblue;
+    margin-left: 100px;
+}
+.col-5 a{
+    text-decoration:underline;
+
+}
+.col-5 svg:hover{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+#middle{
+    margin-left: 50px;
+}
+#right{
+    margin-left: 50px;
+}
+.col-3 {
+    border: 1px solid;
+    margin-left: 10px;
+}
+.col-3 svg{
+    margin-top: 15px;
+    margin-left: 10px;
+
+    background-color: lightgray;
+    border:1px solid lightgray;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+#bold{
+    font-size: 25px;
+    font-weight: 600;
+}
+.dropdown-item span{
+    margin-left: 2px;
+}
+#blue{
+    color: blue;
+    margin-left: 250px;
+}
+.dropdown-item button{
+    background-color: aliceblue;
+    color: blue;
+    border-radius: 100px;
+    border: 1px solid lightgray;
+}
+.dropdown-item img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.one img {
+    margin-bottom: 20px;
+}
+.one span{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.one{
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+}
+#b{
+    color: blue;
+    font-size: small;
+
+}
+.dropdown-menu{
+    overflow:visible;
+    width: 400px;
+}
+#bell{
+    width:450px;
+}
+.profile{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+}
+.profile img{
+    width:50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100px;
+}
+.name{
+    margin: 10px;
+}
+#black{
+    font-size: 20px;
+    font-weight: 400;
+}
+#small{
+    font-size: small;
+}
+.has{
+    height: 10000px;
+}
+.pic:hover{
+    background-color: lightgray;
+    border-radius: 100px;
+}
+.pic img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.pic{
+    height: 100px;
+    margin: 10px;
+}
+.pic a{
+    color: black;
+}
+#menu{
+    width:600px;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+#r{
+    width: 200px;
+    border: 1px solid;
+    margin: 10px;
+
+}
+#r h3{
+    margin: 10px;
+
+}
+.i{
+    margin: 5px;
+    padding: 10px;
 
 
+    
+}
+.i:hover{
+    background-color: rgb(238, 235, 235);
+}
+#l{
+    width: 380px;
+    border: 1px solid;
+    margin: 10px;
+}
+#l input{
+    margin: 10px;
+}
+#l h3{
+    margin: 10px;
+}
+.svg{
+    border: 1px solid;
 }
