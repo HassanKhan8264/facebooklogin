@@ -261,9 +261,6 @@ body{
 #small{
     font-size: small;
 }
-.has{
-    height: 10000px;
-}
 .pic:hover{
     background-color: lightgray;
     border-radius: 100px;
